@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/wx-shop-dependencies/wx.iml" filepath="$PROJECT_DIR$/wx-shop-dependencies/wx.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/wx-book-shop.iml" filepath="$PROJECT_DIR$/.idea/wx-book-shop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wx-shop-dependencies/wx-shop-dependencies.iml" filepath="$PROJECT_DIR$/wx-shop-dependencies/wx-shop-dependencies.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wx-shop-geteway/wx-shop-geteway.iml" filepath="$PROJECT_DIR$/wx-shop-geteway/wx-shop-geteway.iml" />
     </modules>
   </component>
 </project>
