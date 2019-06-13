@@ -27,3 +27,11 @@ wx-shop-dependencies/mvnw
 wx-shop-dependencies/mvnw.cmd
 wx-shop-dependencies/pom.xml
 wx-shop-dependencies/src/
+.gitignore
+.mvn/
+mvnw
+mvnw.cmd
+pom.xml
+src/main/java/com/hrh/wx/service/ServiceApplication.java
+src/main/resources/
+src/test/

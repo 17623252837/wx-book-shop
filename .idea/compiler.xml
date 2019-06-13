@@ -6,18 +6,29 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="wx-shop-geteway" />
+        <module name="wx-shop-commons-mapper" />
+        <module name="wx-shop-commons-domain" />
+        <module name="wx-shop-commons-service" />
+        <module name="wx-shop-commons" />
+        <module name="wx-shop-database" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="wx" target="1.8" />
-      <module name="wx-shop-geteway" target="1.8" />
+      <module name="wx-shop-commons" target="1.8" />
+      <module name="wx-shop-commons-domain" target="1.8" />
+      <module name="wx-shop-commons-mapper" target="1.8" />
+      <module name="wx-shop-commons-service" target="1.8" />
+      <module name="wx-shop-database" target="1.8" />
+      <module name="wx-shop-dependencies" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="wx" options="" />
-      <module name="wx-shop-geteway" options="-parameters" />
+      <module name="wx-shop-commons" options="-parameters" />
+      <module name="wx-shop-commons-domain" options="-parameters" />
+      <module name="wx-shop-commons-mapper" options="-parameters" />
+      <module name="wx-shop-commons-service" options="-parameters" />
+      <module name="wx-shop-database" options="-parameters" />
     </option>
   </component>
 </project>

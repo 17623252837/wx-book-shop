@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/wx-shop-commons" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wx-shop-commons-domain" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wx-shop-commons-mapper" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wx-shop-commons-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wx-shop-database" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wx-shop-dependencies" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/wx-shop-geteway" charset="UTF-8" />
   </component>
 </project>
