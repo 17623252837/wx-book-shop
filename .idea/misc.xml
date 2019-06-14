@@ -12,6 +12,10 @@
         <option value="$PROJECT_DIR$/wx-shop-commons-mapper/pom.xml" />
         <option value="$PROJECT_DIR$/wx-shop-commons-domain/pom.xml" />
         <option value="$PROJECT_DIR$/wx-shop-commons/pom.xml" />
+        <option value="$PROJECT_DIR$/wx-shop-geteway/pom.xml" />
+        <option value="$PROJECT_DIR$/wx-shop-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/wx-shop-client-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/wx-shop-client-consumer/pom.xml" />
       </list>
     </option>
   </component>

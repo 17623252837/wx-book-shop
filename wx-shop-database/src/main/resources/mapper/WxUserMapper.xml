@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hrh.wx.databases.mapper.WxUserMapper">
+  <resultMap id="BaseResultMap" type="com.hrh.wx.databases.domain.WxUser">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="user_id" jdbcType="VARCHAR" property="userId" />
+    <result column="user_wx_oppenid" jdbcType="VARCHAR" property="userWxOppenid" />
+    <result column="user_number" jdbcType="VARCHAR" property="userNumber" />
+    <result column="user_password" jdbcType="VARCHAR" property="userPassword" />
+    <result column="user_sex" jdbcType="VARCHAR" property="userSex" />
+    <result column="user_age" jdbcType="INTEGER" property="userAge" />
+    <result column="user_heade_image" jdbcType="VARCHAR" property="userHeadeImage" />
+    <result column="user_create_data" jdbcType="TIMESTAMP" property="userCreateData" />
+    <result column="user_update_data" jdbcType="TIMESTAMP" property="userUpdateData" />
+  </resultMap>
+</mapper>

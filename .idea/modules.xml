@@ -3,12 +3,15 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/wx-book-shop.iml" filepath="$PROJECT_DIR$/.idea/wx-book-shop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wx-shop-client-consumer/wx-shop-client-consumer.iml" filepath="$PROJECT_DIR$/wx-shop-client-consumer/wx-shop-client-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wx-shop-client-provider/wx-shop-client-provider.iml" filepath="$PROJECT_DIR$/wx-shop-client-provider/wx-shop-client-provider.iml" />
       <module fileurl="file://$PROJECT_DIR$/wx-shop-commons/wx-shop-commons.iml" filepath="$PROJECT_DIR$/wx-shop-commons/wx-shop-commons.iml" />
       <module fileurl="file://$PROJECT_DIR$/wx-shop-commons-domain/wx-shop-commons-domain.iml" filepath="$PROJECT_DIR$/wx-shop-commons-domain/wx-shop-commons-domain.iml" />
       <module fileurl="file://$PROJECT_DIR$/wx-shop-commons-mapper/wx-shop-commons-mapper.iml" filepath="$PROJECT_DIR$/wx-shop-commons-mapper/wx-shop-commons-mapper.iml" />
       <module fileurl="file://$PROJECT_DIR$/wx-shop-commons-service/wx-shop-commons-service.iml" filepath="$PROJECT_DIR$/wx-shop-commons-service/wx-shop-commons-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/wx-shop-database/wx-shop-database.iml" filepath="$PROJECT_DIR$/wx-shop-database/wx-shop-database.iml" />
       <module fileurl="file://$PROJECT_DIR$/wx-shop-dependencies/wx-shop-dependencies.iml" filepath="$PROJECT_DIR$/wx-shop-dependencies/wx-shop-dependencies.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wx-shop-gateway/wx-shop-gateway.iml" filepath="$PROJECT_DIR$/wx-shop-gateway/wx-shop-gateway.iml" />
     </modules>
   </component>
 </project>
