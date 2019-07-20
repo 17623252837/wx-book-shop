@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hrh.wx.commons.mapper.WxMainAdminMapper">
+  <resultMap id="BaseResultMap" type="com.hrh.wx.commons.domain.WxMainAdmin">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="wx_main_id" jdbcType="VARCHAR" property="wxMainId" />
+    <result column="wx_main_login_number" jdbcType="VARCHAR" property="wxMainLoginNumber" />
+    <result column="wx_main_login_pwd" jdbcType="VARCHAR" property="wxMainLoginPwd" />
+    <result column="wx_main_admin_header_img" jdbcType="VARCHAR" property="wxMainAdminHeaderImg" />
+    <result column="wx_main_admin_sex" jdbcType="INTEGER" property="wxMainAdminSex" />
+    <result column="wx_main_admin_age" jdbcType="INTEGER" property="wxMainAdminAge" />
+    <result column="wx_main_admin_phone" jdbcType="VARCHAR" property="wxMainAdminPhone" />
+    <result column="wx_main_admin_email" jdbcType="VARCHAR" property="wxMainAdminEmail" />
+    <result column="wx_main_admin_state" jdbcType="INTEGER" property="wxMainAdminState" />
+    <result column="wx_main_admin_create_data" jdbcType="TIMESTAMP" property="wxMainAdminCreateData" />
+    <result column="wx_main_admin_updated_dara" jdbcType="TIMESTAMP" property="wxMainAdminUpdatedDara" />
+  </resultMap>
+</mapper>

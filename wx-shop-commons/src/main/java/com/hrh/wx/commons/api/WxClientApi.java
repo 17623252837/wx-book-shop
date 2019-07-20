@@ -10,7 +10,7 @@ package com.hrh.wx.commons.api;
  * @Version: 1.0
  */
 public class WxClientApi {
-    private static final String WX_CLIENT_APPID = "wx2f5fe353f841ecb2&secret=3ca44dbfbb2f4beec01911817943347e";
+    private static final String WX_CLIENT_APPID = "wx2f5fe353f841ecb2";
     private static final String WX_CLIENT_SECRET = "3ca44dbfbb2f4beec01911817943347e";
 
 

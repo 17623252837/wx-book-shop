@@ -12,6 +12,8 @@
       <module fileurl="file://$PROJECT_DIR$/wx-shop-database/wx-shop-database.iml" filepath="$PROJECT_DIR$/wx-shop-database/wx-shop-database.iml" />
       <module fileurl="file://$PROJECT_DIR$/wx-shop-dependencies/wx-shop-dependencies.iml" filepath="$PROJECT_DIR$/wx-shop-dependencies/wx-shop-dependencies.iml" />
       <module fileurl="file://$PROJECT_DIR$/wx-shop-gateway/wx-shop-gateway.iml" filepath="$PROJECT_DIR$/wx-shop-gateway/wx-shop-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wx-shop-main-consumer/wx-shop-main-consumer.iml" filepath="$PROJECT_DIR$/wx-shop-main-consumer/wx-shop-main-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wx-shop-main-provider/wx-shop-main-provider.iml" filepath="$PROJECT_DIR$/wx-shop-main-provider/wx-shop-main-provider.iml" />
     </modules>
   </component>
 </project>

@@ -1,12 +1,16 @@
 package com.hrh.wx.shop.client.provider.service.impl;
 
 import com.hrh.wx.commons.api.WxClientApi;
+import com.hrh.wx.commons.dto.WXClientDTO;
 import com.hrh.wx.commons.mapper.WxUserMapper;
 import com.hrh.wx.commons.utils.BaseResult;
 import com.hrh.wx.commons.utils.HttpClientUtils;
+import com.hrh.wx.commons.utils.MapperUtils;
 import com.hrh.wx.shop.client.provider.service.WxClientService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import java.util.Map;
 
 /**
  * @ProjectName: wx-book-shop
@@ -25,9 +29,18 @@ public class WxClientServiceImpl implements WxClientService {
     @Override
     public BaseResult getOpenId(String code) {
         String url = WxClientApi.getUrl(code);
-        System.out.println(url);
         String json = HttpClientUtils.doGet(url);
-        baseResult = json != null ? BaseResult.success("获取成功",json) : BaseResult.fail("获取失败") ;
+        WXClientDTO wxClientDTO = null;
+        try {
+            Map<String, Object> stringObjectMap = MapperUtils.json2map(json);
+            Object openid = stringObjectMap.get("openid");
+            if(openid != null){
+                wxClientDTO = MapperUtils.map2pojo(stringObjectMap, WXClientDTO.class);
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        baseResult = json != null ? BaseResult.success("获取成功",wxClientDTO) : BaseResult.fail("获取失败") ;
         return baseResult;
     }
 }

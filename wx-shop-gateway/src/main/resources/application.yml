@@ -24,8 +24,8 @@ spring:
           predicates:
             # Method 方法谓词，这里是匹配 GET 和 POST 请求
             - Method=GET,POST
-        - id: NACOS-CONSUMER-FEIGN
-          uri: lb://nacos-consumer-feign
+        - id: WX-MAIN-LOGIN
+          uri: lb://wx-shop-main-consumer
           predicates:
             - Method=GET,POST
 

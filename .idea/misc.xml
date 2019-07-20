@@ -6,16 +6,17 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/wx-shop-dependencies/pom.xml" />
         <option value="$PROJECT_DIR$/wx-shop-database/pom.xml" />
-        <option value="$PROJECT_DIR$/wx-shop-commons-service/pom.xml" />
-        <option value="$PROJECT_DIR$/wx-shop-commons-mapper/pom.xml" />
         <option value="$PROJECT_DIR$/wx-shop-commons-domain/pom.xml" />
-        <option value="$PROJECT_DIR$/wx-shop-commons/pom.xml" />
-        <option value="$PROJECT_DIR$/wx-shop-geteway/pom.xml" />
+        <option value="$PROJECT_DIR$/wx-shop-commons-service/pom.xml" />
+        <option value="$PROJECT_DIR$/wx-shop-dependencies/pom.xml" />
         <option value="$PROJECT_DIR$/wx-shop-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/wx-shop-commons/pom.xml" />
+        <option value="$PROJECT_DIR$/wx-shop-commons-mapper/pom.xml" />
         <option value="$PROJECT_DIR$/wx-shop-client-provider/pom.xml" />
         <option value="$PROJECT_DIR$/wx-shop-client-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/wx-shop-main-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/wx-shop-main-consumer/pom.xml" />
       </list>
     </option>
   </component>
@@ -72,5 +73,5 @@
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8.0_131" project-jdk-type="JavaSDK" />
+  <component name="ProjectRootManager" version="2" project-jdk-name="1.8.0_131" project-jdk-type="JavaSDK" />
 </project>

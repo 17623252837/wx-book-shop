@@ -7,10 +7,10 @@
     <file url="file://$PROJECT_DIR$/wx-shop-commons-domain" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wx-shop-commons-mapper" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wx-shop-commons-service" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/wx-shop-consumer-registry" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wx-shop-database" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wx-shop-dependencies" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wx-shop-gateway" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/wx-shop-service-registry" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wx-shop-main-consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wx-shop-main-provider" charset="UTF-8" />
   </component>
 </project>

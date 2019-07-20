@@ -1,11 +1,9 @@
 package com.hrh.wx.databases.domain;
 
-import javax.persistence.Column;
-import javax.persistence.Id;
-import javax.persistence.Table;
 import java.util.Date;
+import javax.persistence.*;
 
-@Table(name = "wx_user")
+@Table(name = "wx-shop..wx_user")
 public class WxUser {
     /**
      * 用户id
